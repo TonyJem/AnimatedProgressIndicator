@@ -13,6 +13,7 @@
 		3A1CF27925C0AA4B005F7E31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A1CF27725C0AA4B005F7E31 /* Main.storyboard */; };
 		3A1CF27B25C0AA4E005F7E31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A1CF27A25C0AA4E005F7E31 /* Assets.xcassets */; };
 		3A1CF27E25C0AA4E005F7E31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A1CF27C25C0AA4E005F7E31 /* LaunchScreen.storyboard */; };
+		3A1CF28725C0AC3A005F7E31 /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1CF28625C0AC3A005F7E31 /* ProgressBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		3A1CF27A25C0AA4E005F7E31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A1CF27D25C0AA4E005F7E31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A1CF27F25C0AA4E005F7E31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A1CF28625C0AC3A005F7E31 /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				3A1CF27125C0AA4B005F7E31 /* AppDelegate.swift */,
 				3A1CF27325C0AA4B005F7E31 /* SceneDelegate.swift */,
 				3A1CF27525C0AA4B005F7E31 /* ViewController.swift */,
+				3A1CF28625C0AC3A005F7E31 /* ProgressBar.swift */,
 				3A1CF27725C0AA4B005F7E31 /* Main.storyboard */,
 				3A1CF27A25C0AA4E005F7E31 /* Assets.xcassets */,
 				3A1CF27C25C0AA4E005F7E31 /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			files = (
 				3A1CF27625C0AA4B005F7E31 /* ViewController.swift in Sources */,
 				3A1CF27225C0AA4B005F7E31 /* AppDelegate.swift in Sources */,
+				3A1CF28725C0AC3A005F7E31 /* ProgressBar.swift in Sources */,
 				3A1CF27425C0AA4B005F7E31 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
