@@ -22,5 +22,16 @@ class ViewController: UIViewController {
             progressBar.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -16),
             progressBar.heightAnchor.constraint(equalToConstant: 10)
         ])
+        
+        animate()
+    }
+    
+    private func animate() {
+        var filledComponents: UInt = 0
+        Timer.scheduledTimer(withTimeInterval: 0.5, repeats: true) { _ in
+            self.progressBar.filledElements = filledComponents % (self.progressBar.totalElements + 1)
+            self.progressBar.render()
+            filledComponents += 1
+        }
     }
 }

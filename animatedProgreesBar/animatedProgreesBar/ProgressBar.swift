@@ -28,7 +28,7 @@ class ProgressBar: UIView {
         render()
     }
     
-    private func render() {
+    func render() {
         subviews.forEach { $0.removeFromSuperview() }
         
         let viewWidth: CGFloat = (frame.size.width - spacing * (CGFloat(totalElements) - 1 )) / CGFloat(totalElements)
