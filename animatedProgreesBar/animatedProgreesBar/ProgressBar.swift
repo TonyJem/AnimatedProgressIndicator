@@ -29,10 +29,11 @@ class ProgressBar: UIView {
     }
     
     private func render() {
+        subviews.forEach { $0.removeFromSuperview() }
+        
         let viewWidth: CGFloat = (frame.size.width - spacing * (CGFloat(totalElements) - 1 )) / CGFloat(totalElements)
         let viewHeight: CGFloat = frame.size.height
-        
-        
+          
         var dx: CGFloat = 0
         for i in 0..<totalElements {
             let component = UIView(frame: CGRect(x: dx, y: 0, width: viewWidth, height: viewHeight))
