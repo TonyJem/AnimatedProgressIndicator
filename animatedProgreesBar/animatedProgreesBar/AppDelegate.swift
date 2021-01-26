@@ -1,10 +1,3 @@
-//
-//  AppDelegate.swift
-//  animatedProgreesBar
-//
-//  Created by Office-iMac on 2021-01-26.
-//
-
 import UIKit
 
 @main
